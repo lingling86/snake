@@ -1,10 +1,24 @@
 #include <drawer.h>
+#include <wchar.h>
 
 int monitor;
 
 void draw(Snake *snake, FOOD *food)
 {
 	clear();
+
+	// draw food
+	move(food->x, food->y);
+	switch (food->prop)
+	{
+	case DEFAULT:
+		addwstr(L"\U0001F34F");
+		break;
+	case SPEED:
+		addwstr(L"\U0001F34E");
+		break;
+	}
+
 	attron(A_REVERSE);
 	// draw snake
 	for (int i = 0; i < snake->len; i++)
@@ -14,19 +28,7 @@ void draw(Snake *snake, FOOD *food)
 	}
 	attroff(A_REVERSE);
 
-	// draw food
-	move(food->x, food->y);
-	switch (food->prop)
-	{
-	case DEFAULT:
-		attron(A_REVERSE);
-		printw("  ");
-		attroff(A_REVERSE);
-		break;
-	case SPEED:
-		printw("SS");
-		break;
-	}
+	
 	refresh();
 }
 

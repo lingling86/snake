@@ -44,7 +44,10 @@ void eat_food(FOOD *food, Snake *snake)
             snake->len++;
             break;
         case SPEED:
-            snake->speed *= 0.7;
+            if (snake->speed >= 100)
+                snake->speed *= 0.7;
+            else
+                snake->speed *= 0.9;
             break;
         }
         create_food(snake);

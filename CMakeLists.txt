@@ -7,6 +7,8 @@ enable_testing()
 include_directories(./include)
 include_directories(./include/pdcurses)
 
+add_compile_options(-DPDC_WIDE)
+
 aux_source_directory(./src _SRC)
 aux_source_directory(./include/pdcurses/pdcurses PDCURSES)
 aux_source_directory(./include/pdcurses/wincon WINCON)
