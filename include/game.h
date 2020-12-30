@@ -11,11 +11,6 @@
 #define _UP 259
 #define _DOWN 258
 
-int row, col;
-Snake snake;
-FOOD food;
-int _key;
-
 void move_snake(Snake *snake);
 
 void eat_food(FOOD *food, Snake *snake);
@@ -25,6 +20,8 @@ int snake_die(Snake *snake);
 void init_snake(int _row, int _col);
 
 void create_food(Snake *snake);
+
+int load();
 
 Snake *get_snake();
 

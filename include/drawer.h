@@ -6,9 +6,11 @@
 
 void draw(Snake *snake, FOOD *food);
 
+void init_draw(int _row, int _col);
+
 void debug_draw(Snake *snake, FOOD *food);
 
-void game_over(Snake *snake);
+void game_over(int _row,int _col,Snake *snake);
 
 void debug(int n);
 

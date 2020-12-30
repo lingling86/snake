@@ -1,12 +1,23 @@
 #include <drawer.h>
+#include <internet.h>
 #include <model.h>
+#include <stdlib.h>
 #include <game.h>
 #include <windows.h>
+
+WSADATA wsaData;
+static DWORD last = 0;
+static DWORD cur;
 
 void key_down(Snake *snake);
 
 int main()
 {
+	WSAStartup(MAKEWORD(2, 2), &wsaData);
+
+	int cmd = 0;
+	scanf("%d", &cmd);
+
 	initscr();
 	raw();
 	nodelay(stdscr, TRUE);
@@ -15,20 +26,43 @@ int main()
 	curs_set(0);
 
 	init_snake(LINES, COLS);
+	// init_snake(120, 60);
 	create_food(get_snake());
+
+	if (cmd == 1)
+	{
+		createroom();
+	}
+	else if (cmd == 2)
+	{
+		connectroom();
+	}
 
 	while (1)
 	{
-
 		key_down(get_snake());
+		cur = GetTickCount();
+		if (cur - last > get_snake()->speed)
+		{
+			last = cur;
+			move_snake(get_snake());
+			mutl tmp = get_player_info();
+			clear();
+			// debug_draw(get_snake(), get_food());
+			// debug_draw(&tmp.snake, &tmp.food);
+			draw(get_snake(), get_food());
+			draw(&tmp.snake, &tmp.food);
+			refresh();
+		}
 		eat_food(get_food(), get_snake());
-		move_snake(get_snake());
-		draw(get_snake(), get_food());
-		if (!snake_die(get_snake()))
-			break;
-		Sleep(get_snake()->speed);
+		// init_draw(LINES, COLS);
+		con();
+		// if (!snake_die(get_snake()))
+		// 	break;
 	}
-	game_over(get_snake());
+	WSACleanup();
+	game_over(LINES, COLS, get_snake());
+	Sleep(5000);
 	endwin();
 	return 0;
 }

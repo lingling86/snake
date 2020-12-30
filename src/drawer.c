@@ -2,11 +2,10 @@
 #include <wchar.h>
 
 int monitor;
+int r, c;
 
 void draw(Snake *snake, FOOD *food)
 {
-	clear();
-
 	// draw food
 	move(food->x, food->y);
 	switch (food->prop)
@@ -27,9 +26,6 @@ void draw(Snake *snake, FOOD *food)
 		printw("  ");
 	}
 	attroff(A_REVERSE);
-
-	
-	refresh();
 }
 
 void debug_draw(Snake *snake, FOOD *food)
@@ -48,7 +44,32 @@ void debug(int n)
 	monitor = n;
 }
 
-void game_over(Snake *snake)
+void game_over(int _row, int _col, Snake *snake)
 {
-	// TODO: draw a game over window
+	r = _row;
+	c = _col;
+	clear();
+	start_color();
+	init_pair(1, COLOR_YELLOW, COLOR_BLACK);
+	move(r / 2 - 2, c / 2 - 4);
+	attron(COLOR_PAIR(1));
+	printw("game over");
+	move(r / 2 - 1, c / 2);
+	printw("%d", snake->count);
+	attroff(COLOR_PAIR(1));
+	refresh();
+}
+
+void init_draw(int _row, int _col)
+{
+	r = _row;
+	c = _col;
+	attron(A_REVERSE);
+	for (int i = 0; i < r; i++)
+	{
+		move(c - 8, i);
+		printw("  ");
+	}
+	attroff(A_REVERSE);
+	refresh();
 }

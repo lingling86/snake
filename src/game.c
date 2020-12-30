@@ -1,5 +1,11 @@
 #include <game.h>
 
+static int row, col;
+static Snake snake;
+static FOOD food;
+static int _key;
+static int flag = 0;
+
 void set_key(int k)
 {
     _key = k;
@@ -50,6 +56,7 @@ void eat_food(FOOD *food, Snake *snake)
                 snake->speed *= 0.9;
             break;
         }
+        snake->count++;
         create_food(snake);
     }
 }
@@ -75,6 +82,7 @@ void init_snake(int _row, int _col)
     row = _row;
     col = _col;
     _key = 261;
+    srand(time(0));
     snake.x[0] = row / 2;
     snake.y[0] = col / 2;
     snake.len = 3;
@@ -91,7 +99,6 @@ void create_food(Snake *snake)
 {
     int i;
     int a, b;
-    srand((unsigned)time(NULL));
     while (1)
     {
         food.x = rand() % row;
@@ -116,4 +123,30 @@ Snake *get_snake()
 FOOD *get_food()
 {
     return &food;
+}
+
+int load()
+{
+    // int ked;
+    // while (1)
+    // {
+    //     ked = getch();
+    //     if (ked == _UP)
+    //     {
+    //         flag--;
+    //         if (flag < 0)
+    //             flag = 0;
+    //         return flag;
+    //     }
+    //     else if (ked == _DOWN)
+    //     {
+    //         flag++;
+    //         if (flag >= 3)
+    //             flag = 2;
+    //         return flag;
+    //     }
+    //     else if (ked == '\n')
+    //         break;
+    // }
+    // return flag++;
 }

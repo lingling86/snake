@@ -14,7 +14,7 @@ typedef struct
 	int x;
 	int y;
 	int prop;
-} FOOD, *pfood;
+} FOOD;
 
 typedef struct
 {
@@ -23,6 +23,12 @@ typedef struct
 	int count;
 	int speed;
 	int len;
-} Snake, *psnake;
+} Snake;
+
+typedef struct
+{	
+	Snake snake;
+	FOOD food;
+} mutl;
 
 #endif
