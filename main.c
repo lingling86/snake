@@ -26,7 +26,6 @@ int main()
 	curs_set(0);
 
 	init_snake(LINES, COLS);
-	// init_snake(120, 60);
 	create_food(get_snake());
 
 	if (cmd == 1)
@@ -48,17 +47,14 @@ int main()
 			move_snake(get_snake());
 			mutl tmp = get_player_info();
 			clear();
-			// debug_draw(get_snake(), get_food());
-			// debug_draw(&tmp.snake, &tmp.food);
 			draw(get_snake(), get_food());
 			draw(&tmp.snake, &tmp.food);
 			refresh();
 		}
 		eat_food(get_food(), get_snake());
-		// init_draw(LINES, COLS);
 		con();
-		// if (!snake_die(get_snake()))
-		// 	break;
+		if (!snake_die(get_snake()))
+			break;
 	}
 	WSACleanup();
 	game_over(LINES, COLS, get_snake());
