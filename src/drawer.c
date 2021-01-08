@@ -71,5 +71,7 @@ void init_draw(int _row, int _col)
 		printw("  ");
 	}
 	attroff(A_REVERSE);
+		break;
+	}
 	refresh();
 }
