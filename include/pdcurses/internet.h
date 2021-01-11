@@ -11,7 +11,7 @@ void createroom();
 
 void con();
 
-void connectroom();
+void connectroom(const char *sl);
 
 mutl get_player_info();
 

@@ -63,7 +63,7 @@ void eat_food(FOOD *food, Snake *snake)
 
 int snake_die(Snake *snake)
 {
-    if (snake->x[0] == -1 || snake->x[0] == row || snake->y[0] == -2 || snake->y[0] == col)
+    if (snake->x[0] == 65535 || snake->x[0] == row || snake->y[0] == 65534 || snake->y[0] == col)
     {
         return 0;
     }
@@ -127,26 +127,26 @@ FOOD *get_food()
 
 int load()
 {
-    // int ked;
-    // while (1)
-    // {
-    //     ked = getch();
-    //     if (ked == _UP)
-    //     {
-    //         flag--;
-    //         if (flag < 0)
-    //             flag = 0;
-    //         return flag;
-    //     }
-    //     else if (ked == _DOWN)
-    //     {
-    //         flag++;
-    //         if (flag >= 3)
-    //             flag = 2;
-    //         return flag;
-    //     }
-    //     else if (ked == '\n')
-    //         break;
-    // }
-    // return flag++;
+    int ked;
+    ked = getch();
+    if (ked == ERR)
+        return flag;
+    else if (ked == _UP)
+    {
+        flag--;
+        if (flag < 0)
+            flag = 0;
+        return flag;
+    }
+    else if (ked == _DOWN)
+    {
+        flag++;
+        if (flag > 1)
+            flag = 1;
+        return flag;
+    }
+    else if (ked == 13)
+    {
+        return 5;
+    }
 }

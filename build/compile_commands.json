@@ -1,0 +1,257 @@
+[
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\main.c.obj -c C:\\Project\\snake\\main.c",
+  "file": "C:/Project/snake/main.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\src\\drawer.c.obj -c C:\\Project\\snake\\src\\drawer.c",
+  "file": "C:/Project/snake/src/drawer.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\src\\game.c.obj -c C:\\Project\\snake\\src\\game.c",
+  "file": "C:/Project/snake/src/game.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\src\\internet.c.obj -c C:\\Project\\snake\\src\\internet.c",
+  "file": "C:/Project/snake/src/internet.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\addch.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\addch.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/addch.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\addchstr.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\addchstr.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/addchstr.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\addstr.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\addstr.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/addstr.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\attr.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\attr.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/attr.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\beep.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\beep.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/beep.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\bkgd.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\bkgd.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/bkgd.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\border.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\border.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/border.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\clear.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\clear.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/clear.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\color.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\color.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/color.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\debug.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\debug.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/debug.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\delch.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\delch.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/delch.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\deleteln.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\deleteln.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/deleteln.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\getch.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\getch.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/getch.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\getstr.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\getstr.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/getstr.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\getyx.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\getyx.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/getyx.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\inch.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\inch.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/inch.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\inchstr.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\inchstr.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/inchstr.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\initscr.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\initscr.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/initscr.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\inopts.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\inopts.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/inopts.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\insch.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\insch.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/insch.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\insstr.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\insstr.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/insstr.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\instr.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\instr.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/instr.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\kernel.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\kernel.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/kernel.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\keyname.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\keyname.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/keyname.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\mouse.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\mouse.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/mouse.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\move.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\move.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/move.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\outopts.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\outopts.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/outopts.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\overlay.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\overlay.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/overlay.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\pad.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\pad.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/pad.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\panel.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\panel.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/panel.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\printw.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\printw.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/printw.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\refresh.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\refresh.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/refresh.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\scanw.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\scanw.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/scanw.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\scr_dump.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\scr_dump.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/scr_dump.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\scroll.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\scroll.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/scroll.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\slk.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\slk.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/slk.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\termattr.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\termattr.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/termattr.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\touch.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\touch.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/touch.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\util.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\util.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/util.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\pdcurses\\window.c.obj -c C:\\Project\\snake\\include\\pdcurses\\pdcurses\\window.c",
+  "file": "C:/Project/snake/include/pdcurses/pdcurses/window.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\wincon\\pdcclip.c.obj -c C:\\Project\\snake\\include\\pdcurses\\wincon\\pdcclip.c",
+  "file": "C:/Project/snake/include/pdcurses/wincon/pdcclip.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\wincon\\pdcdisp.c.obj -c C:\\Project\\snake\\include\\pdcurses\\wincon\\pdcdisp.c",
+  "file": "C:/Project/snake/include/pdcurses/wincon/pdcdisp.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\wincon\\pdcgetsc.c.obj -c C:\\Project\\snake\\include\\pdcurses\\wincon\\pdcgetsc.c",
+  "file": "C:/Project/snake/include/pdcurses/wincon/pdcgetsc.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\wincon\\pdckbd.c.obj -c C:\\Project\\snake\\include\\pdcurses\\wincon\\pdckbd.c",
+  "file": "C:/Project/snake/include/pdcurses/wincon/pdckbd.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\wincon\\pdcscrn.c.obj -c C:\\Project\\snake\\include\\pdcurses\\wincon\\pdcscrn.c",
+  "file": "C:/Project/snake/include/pdcurses/wincon/pdcscrn.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\wincon\\pdcsetsc.c.obj -c C:\\Project\\snake\\include\\pdcurses\\wincon\\pdcsetsc.c",
+  "file": "C:/Project/snake/include/pdcurses/wincon/pdcsetsc.c"
+},
+{
+  "directory": "C:/Project/snake/build",
+  "command": "C:\\TDM-GCC-64\\bin\\gcc.exe  @CMakeFiles/snake.dir/includes_C.rsp -g -DPDC_WIDE -o CMakeFiles\\snake.dir\\include\\pdcurses\\wincon\\pdcutil.c.obj -c C:\\Project\\snake\\include\\pdcurses\\wincon\\pdcutil.c",
+  "file": "C:/Project/snake/include/pdcurses/wincon/pdcutil.c"
+}
+]

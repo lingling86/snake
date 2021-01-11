@@ -27,13 +27,13 @@ void createroom()
     state = WSAGetLastError();
 }
 
-void connectroom()
+void connectroom(const char *sl)
 {
     s = socket(AF_INET, SOCK_DGRAM, 0);
     unsigned long Opt = 1;
     ioctlsocket(s, FIONBIO, &Opt);
     sendAddr.sin_family = AF_INET;
-    sendAddr.sin_addr.s_addr = inet_addr("192.168.43.4");
+    sendAddr.sin_addr.s_addr = inet_addr(sl);
     sendAddr.sin_port = htons(4100);
     int tmp = 1;
     sendto(s, (char *)&tmp, sizeof(tmp), 0, (SOCKADDR *)&sendAddr, sendSize);

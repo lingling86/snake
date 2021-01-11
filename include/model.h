@@ -11,18 +11,18 @@ enum
 
 typedef struct
 {
-	int x;
-	int y;
-	int prop;
+	unsigned short x;
+	unsigned short y;
+	unsigned short prop;
 } FOOD;
 
 typedef struct
 {
-	int x[200];
-	int y[200];
-	int count;
-	int speed;
-	int len;
+	unsigned short x[200];
+	unsigned short y[200];
+	unsigned short count;
+	unsigned short speed;
+	unsigned short len;
 } Snake;
 
 typedef struct
