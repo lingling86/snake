@@ -99,6 +99,7 @@ void create_food(Snake *snake)
 {
     int i;
     int a, b;
+    int flag = 0;
     while (1)
     {
         food.x = rand() % row;
@@ -108,11 +109,12 @@ void create_food(Snake *snake)
             continue;
         for (i = 0; i < snake->len; i++)
         {
-            if (food.x != snake->x[i] && food.y != snake->y[i])
-                goto end;
+            if (food.x == snake->x[i] && food.y == snake->y[i])
+                flag = 1;
         }
+        if (!flag)
+            break;
     }
-end:;
 }
 
 Snake *get_snake()
